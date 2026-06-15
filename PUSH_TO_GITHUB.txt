@@ -1,0 +1,61 @@
+════════════════════════════════════════════════════════════════
+   COPY AND RUN THESE COMMANDS IN YOUR TERMINAL
+════════════════════════════════════════════════════════════════
+
+Step 1: Navigate to project directory
+──────────────────────────────────────────────────────────────
+cd "/Users/seshasaitunuguntla/Desktop/django assignment"
+
+
+Step 2: Configure Git (Replace with YOUR actual details)
+──────────────────────────────────────────────────────────────
+git config user.name "Sesha Sai Tunuguntla"
+git config user.email "seshasaitunuguntla@example.com"
+
+
+Step 3: Commit all files
+──────────────────────────────────────────────────────────────
+git commit -m "Initial commit: Django Box Selection System"
+
+
+Step 4: Add GitHub repository
+──────────────────────────────────────────────────────────────
+git remote add origin https://github.com/SeshasaiTunuguntla/django-box-selection.git
+
+
+Step 5: Push to GitHub
+──────────────────────────────────────────────────────────────
+git push -u origin main
+
+
+════════════════════════════════════════════════════════════════
+   AFTER PUSHING - VERIFY
+════════════════════════════════════════════════════════════════
+
+Visit: https://github.com/SeshasaiTunuguntla/django-box-selection
+
+You should see:
+✓ README.md with project documentation
+✓ AI_USAGE.md with AI usage details
+✓ TEST_OUTPUT.md with test results
+✓ All code files in boxes/ directory
+✓ requirements.txt
+
+════════════════════════════════════════════════════════════════
+   TROUBLESHOOTING
+════════════════════════════════════════════════════════════════
+
+If "remote origin already exists":
+    git remote remove origin
+    git remote add origin https://github.com/SeshasaiTunuguntla/django-box-selection.git
+    git push -u origin main
+
+If authentication fails:
+    Use Personal Access Token (PAT) from GitHub Settings
+    instead of your password
+
+If "Updates were rejected":
+    git pull origin main --allow-unrelated-histories
+    git push -u origin main
+
+════════════════════════════════════════════════════════════════
